@@ -160,7 +160,7 @@ img{
 .feature-icons a{
     width: 100%;
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-size: x-large;
 }
 .feature-icons a:hover{
@@ -183,7 +183,7 @@ img{
     .feature-icons a{
         width: 100%;
         text-decoration: none;
-        color: black;
+        color: #000000;
         font-size: medium;
     }
     .feature-icons a:hover{
@@ -212,7 +212,7 @@ img{
     .feature-icons a{
         width: 100%;
         text-decoration: none;
-        color: black;
+        color: #000000;
         font-size: medium;
     }
     .feature-icons a:hover{

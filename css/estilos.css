@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #ddb2b7;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url("../assets/imagenesUWU/img1.png");
+    animation: banner 28s infinite linear;
+}
+.banner-content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background-color: rgba(0,22,40,.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h1{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0px;
+    font-size: 90px;
+    text-align: center;
+}
+.banner-content h5{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.banner-content a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 9px 20px;
+    border: 1px solid #FFF;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+.banner-content a:hover{
+    background-color: #FFF;
+    color: #333;
+}
+@keyframes banner {
+    0%{
+        background-image: url("../assets/imagenesUWU/img1.png");
+    }
+    9%{
+        background-image: url("../assets/imagenesUWU/img1.png");
+    }
+    10%{
+        background-image: url("../assets/imagenesUWU/img2.png");
+    }
+    19%{
+        background-image: url("../assets/imagenesUWU/img2.png");
+    }
+    20%{
+        background-image: url("../assets/imagenesUWU/img3.jpg");
+    }
+    29%{
+        background-image: url("../assets/imagenesUWU/img3.jpg");
+    }
+    30%{
+        background-image: url("../assets/imagenesUWU/img4.jpg");
+    }
+    39%{
+        background-image: url("../assets/imagenesUWU/img4.jpg");
+    }
+    40%{
+         background-image: url("../assets/imagenesUWU/img5.jpg");
+     }
+    49%{
+        background-image: url("../assets/imagenesUWU/img5.jpg");
+    }
+    50%{
+        background-image: url("../assets/imagenesUWU/img6.jpg");
+    }
+    59%{
+        background-image: url("../assets/imagenesUWU/img6.jpg");
+    }
+    60%{
+        background-image: url("../assets/imagenesUWU/img7.jpg");
+    }
+    69%{
+        background-image: url("../assets/imagenesUWU/img7.jpg");
+    }
+    70%{
+        background-image: url("../assets/imagenesUWU/img8.jpg");
+    }
+    79%{
+        background-image: url("../assets/imagenesUWU/img8.jpg");
+    }
+    80%{
+        background-image: url("../assets/imagenesUWU/img9.jpg");
+    }
+    89%{
+        background-image: url("../assets/imagenesUWU/img9.jpg");
+    }
+    90%{
+        background-image: url("../assets/imagenesUWU/img10.jpg");
+    }
+    100%{
+        background-image: url("../assets/imagenesUWU/img10.jpg");
+    }
+
+}
+
+.contenido{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+h2{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.animate{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enmedio{
+    background-color: white;
+}
+img{
+    max-width: 100%;
+}
+/* TIPOS ANIME*/
+.feature-icons{
+}
+.table{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.feature-icons a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+.feature-icons a:hover{
+    color: #646464;
+}
+/* ICON */
+
+.icon:before {
+    padding: 10px;
+}
+@media(max-width: 768px) {
+    /* TIPOS ANIME*/
+    .feature-icons{
+    }
+    .table{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .feature-icons a{
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+    }
+    .feature-icons a:hover{
+        color: #646464;
+    }
+    /* ICON */
+
+    .icon:before {
+        padding: 10px;
+    }
+}
+/* CAROUSEL */
+.carousel{
+    padding: 10px;
+}
+@media(max-width: 962px) {
+    /* TIPOS ANIME*/
+    .feature-icons{
+        padding-top: 100px;
+    }
+    .table{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+    .feature-icons a{
+        width: 100%;
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+    }
+    .feature-icons a:hover{
+        color: #646464;
+    }
+    /* ICON */
+
+    .icon:before {
+        padding: 10px;
+    }
+}
+@media (max-width: 1562px) {
+    .claCarousel{
+        background-color: #ffffff;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+/* FOOTER*/
+#footer{
+    background-color: #3B3B3B;
+    background-size: 20px 20px;
+}
+.contenidoF h3{
+    font-size: xx-small;
+    color: white;
+}
+.contenido a{
+    text-decoration: none;
+    color: #D5D5D5;
+    font-size: large;
+}
